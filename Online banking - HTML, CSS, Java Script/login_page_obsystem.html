@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dbsm_css_r2.css" type="text/css">
+    <script src="dbmsreview2_js.js"></script>
+    <title>Login page</title>
+    
+</head>
+<style>
+    body{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("loginpagebackground_obsystem3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+</style>
+<body>
+    <form class="box" action="login_page.html" method="POST" onsubmit="return loginpage();" >
+        <h1>Login</h1>
+        <input type="text" name="" placeholder="Username" id="login_user_name">
+        <div id="e_login_user_name" class="error"></div>
+        <input type="password" name="" placeholder="Password" id="loginpass">
+        <div id="e_loginpass" class="error"></div>
+        <input type="submit" name="" value="Login"><a href="you have successfully logged in"></a>
+        <a href="registerpage_obsystem.html" style="font-size: 18px;color: rgb(236, 236, 245);">Register?</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="forgotpassword_obsystem.html" style="font-size: 18px;color: rgb(224, 224, 231);">Forgot password?</a>
+    </form>
+    
+</body>
+</html>

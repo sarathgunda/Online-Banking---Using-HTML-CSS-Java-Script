@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dbsm_css_r2.css" type="text/css">
+    <script src="dbmsreview2_js.js"></script>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1> AMIGO BANKING </h1>
+    <img src="logo.png" height="300px"style="float: right;">
+    <form method="POST" id="registration" action="...pphp" ></form>
+    <div class="registration">
+        <div class="title">Online Banking Registration</div>
+        <div class="content">
+            <form action="#" onsubmit="return registration();">
+              <div class="user-details">
+                <div class="input-box"  >
+                    <span class="details">Full Name</span><input id="fullname" type="text" class="Full name" placeholder="Enter your name" >
+                
+                    <div id="e_name"></div></br>
+                </div>
+                <div class="input-box">
+                    <span class="details">Username</span><input id="uname" type="text" name="user name" placeholder="Enter your username" >
+                    <div id="e_uname"></div></br>
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone Number</span><input id="unumber" type="number" name="phone no" placeholder="Enter your number" >
+                    <div id="e_unumber"></div></br>
+                </div>
+                <div class="input-box">
+                    <span class="details">Customer id</span><input type="number" id="lastschool" name="school" placeholder="Enter your customer id here" >
+                    <div id="e_lastschool"></div></br>
+                </div>
+                <div class="input-box">
+                    <span class="details">Account Number</span><input type="text" name="college" id="lastclg" placeholder="Enter your Account number here" >
+                    <div id="e_lastclg"></div></br>
+                </div>
+                <div class="input-box">
+                  <span class="details">SELECT BRANCHE YOU WANTED</span><select name="category" size="1" id="selectbox">
+                    <option value=>SELECT BRANCH
+                        <option value=>CBEbranch
+                            <option value=>NYPbranch
+                              <option value=>SLMbranch
+                                <option value=>CHNbranch
+                                  <option value=>ONGbranch
+                                    <option value=>NLRbranch
+                                      <option value=>EREbranch
+                                          <option value=>VJDbranch
+                                            <option value=>GNTbranch
+                                                <option value=>HYDbranch
+                    </option></select>
+                    
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span><input type="password" id="pass" name="password" placeholder="Enter your password" >
+                    <div id="e_pass"></div></br>
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirm Password</span><input type="password" id="cpass" name="confirm password" placeholder="Confirm your password" >
+                    <div id="e_cpass"></div></br>
+                </div>
+                </div>
+                <div class="button">
+                    <input type="reset" value="Reset Page">
+                </div>
+                <div class="button">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

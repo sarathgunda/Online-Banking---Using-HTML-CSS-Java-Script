@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+nav{
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-between;
+    align-items: center;
+    transition: 2s;
+    flex-direction:row;
+    position: fixed;
+    top: 0;
+    height: 11%;
+    width: 100%;
+    z-index: 2;
+    
+}
+.bar{
+     background-color: rgb(14, 2, 2);
+     position: fixed;
+}
+.links{
+    
+    
+    flex: 0.5;
+    display: flex;
+    text-align:right;
+    justify-content: space-evenly;
+   
+    
+}
+.bar li a{
+    text-decoration-line: none;
+    text-decoration: solid;
+    color: white;
+    font-weight: bold;
+}
+.bar li a:hover{
+    color: rgb(236, 75, 54);
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding:0px;
+    margin:0;
+  }
+  body{
+      overflow:hidden;
+    background-image: url(bck.jpg);
+}
+  .box{
+    transform: translate(0,70px);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+    }
+    .polaroid{
+    transition:0.5s;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(0,0,0,0.4);
+    text-align: center;
+    }
+    .polaroid:hover{
+    cursor: pointer;
+    transform:scale(1.2);
+    background-color: rgba(0, 0, 0, 0.9);
+    color:white;
+    }
+    .container{
+        padding:10px;
+        color: rgb(246, 76, 114);
+        font-family: 'Poppins', sans-serif;
+    }
+    .footer{
+        align-items: center;
+        padding-top:10px;
+        box-sizing: border-box;
+        width:100%;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        background-color: rgb(7, 7, 7,0.6);
+        color: white;
+    }
+    #socials{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .footer li{
+       margin:20px;
+    }
+    .footer p{
+        align-self: flex-start;
+    }  
+    .footer p{
+        padding-top:10px;
+        text-transform: capitalize;
+        
+    }
+    .footer .facebook:hover{
+        color:rgb(9, 89, 209);
+        
+    }
+    .footer .google:hover{
+        color:rgb(3, 189, 18);
+        
+    }
+    .footer .instagram:hover{
+        color:rgb(196, 13, 165);
+        
+    }
+    .footer .twitter:hover{
+        color:rgb(7, 204, 230);
+        
+    }
+    .footer .youtube:hover{
+        color:rgb(219, 3, 3);
+        
+    }
+    
+    .footer a{
+        margin-bottom:10px;
+        padding-top:5px;
+        text-decoration: none;
+        color: white;
+    
+    }

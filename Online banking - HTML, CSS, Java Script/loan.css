@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+nav{
+    display: flex;
+    padding: 1% 1%;
+    justify-content: space-between;
+    align-items: center;
+    transition: 2s;
+    flex-direction:row;
+    position: fixed;
+    top: 0;
+    height: 11%;
+    width: 100%;
+    z-index: 2;
+    
+}
+.bar{
+     background-color: rgb(14, 2, 2);
+     position: fixed;
+}
+.links{
+    
+    
+    flex: 0.5;
+    display: flex;
+    text-align:right;
+    justify-content: space-evenly;
+   
+    
+}
+.bar li a{
+    text-decoration-line: none;
+    text-decoration: solid;
+    color: white;
+    font-weight: bold;
+}
+.bar li a:hover{
+    color: rgb(236, 75, 54);
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding:0px;
+    margin:0;
+  }
+  body{
+      overflow:hidden;
+    background-image: url(bck.jpg);
+}
+  .box{
+    transform: translate(0,100px);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+    }
+    .card {
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 10%;
+        height:30%;
+        background-color: rgba(255, 255, 255, .15);  
+        backdrop-filter: blur(5px);
+      }
+    
+      button{
+        transition:0.5s;
+        border-radius:10px;
+        color: black;
+        background-color: rgb(248, 248, 248,0.3);
+        margin: 7px;
+      }
+      button:hover{
+          background-color:black;
+          color:rgb(246, 76, 114);
+          transform:scale(1.2);
+      }
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+      }
+      
+      .container {
+        padding: 2px 16px;
+      }
+    .footer{
+        align-items: center;
+        padding-top:10px;
+        box-sizing: border-box;
+        width:100%;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        background-color: rgb(7, 7, 7,0.6);
+        color: white;
+    }
+    #socials{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .footer li{
+       margin:20px;
+    }
+    .footer p{
+        align-self: flex-start;
+    }  
+    .footer p{
+        padding-top:10px;
+        text-transform: capitalize;
+        
+    }
+    .footer .facebook:hover{
+        color:rgb(9, 89, 209);
+        
+    }
+    .footer .google:hover{
+        color:rgb(3, 189, 18);
+        
+    }
+    .footer .instagram:hover{
+        color:rgb(196, 13, 165);
+        
+    }
+    .footer .twitter:hover{
+        color:rgb(7, 204, 230);
+        
+    }
+    .footer .youtube:hover{
+        color:rgb(219, 3, 3);
+        
+    }
+    
+    .footer a{
+        margin-bottom:10px;
+        padding-top:5px;
+        text-decoration: none;
+        color: white;
+    
+    }
